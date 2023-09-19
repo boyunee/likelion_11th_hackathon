@@ -1,9 +1,11 @@
-package com.example.test;
+package com.example.test.dto;
 
 import lombok.Data;
 
+
+
 @Data
-public class data {
+public class GymReviewDto {
     private Integer starRatingValue;
     private Integer buttonValue1;
     private Integer buttonValue2;
@@ -17,7 +19,7 @@ public class data {
 
 
 
-    public data(Integer starRatingValue, Integer buttonValue1, Integer buttonValue2, Integer buttonValue3, String textarea1, String textarea2, String textarea3, String textarea4){
+    public GymReviewDto(Integer starRatingValue, Integer buttonValue1, Integer buttonValue2, Integer buttonValue3, String textarea1, String textarea2, String textarea3, String textarea4){
         this.starRatingValue = starRatingValue;
         this.buttonValue1 = buttonValue1;
         this.buttonValue2 = buttonValue2;
